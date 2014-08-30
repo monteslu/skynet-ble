@@ -1,0 +1,20 @@
+{
+  "name": "skynet-ble",
+  "version": "0.1.0",
+  "description": "Bluetooh Low Energy (BLE) Skynet Gateway (GateBlu) plugin",
+  "keywords": [
+    "skynet-plugin",
+    "gateblu"
+  ],
+  "repository": "git@github.com:monteslu/skynet-ble.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Montes",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "noble": "git://github.com/octoblu/noble"
+  }
+}
